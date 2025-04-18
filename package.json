@@ -2,12 +2,12 @@
   "name": "movie-list-bot",
   "version": "1.0.0",
   "type": "module",
-  "main": "index.js",
+  "main": "src/bot.js",
   "scripts": {
-    "index": "node index.js",
+    "index": "node src/bot.js",
     "deploy": "node deploy-commands.js",
-    "start": "node index.js",
-    "dev": "nodemon index.js",
+    "start": "node src/bot.js",
+    "dev": "nodemon src/bot.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
