@@ -1,0 +1,5 @@
+{
+  "watch": ["*.js"],
+  "ignore": ["node_modules/", "movies.json", "meetings.json"],
+  "ext": "js"
+} 
